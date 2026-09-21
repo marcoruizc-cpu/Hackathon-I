@@ -1,0 +1,16 @@
+services:
+  bandersnatch-db:
+    image: postgres:16
+    container_name: bandersnatch-db
+    environment:
+      POSTGRES_DB: bandersnatch
+      POSTGRES_USER: tuckersoft
+      POSTGRES_PASSWORD: colin1984
+    ports:
+      - "5432:5432"
+    volumes:
+      - bandersnatch-data:/var/lib/postgresql/data
+    restart: unless-stopped
+
+volumes:
+  bandersnatch-data:
