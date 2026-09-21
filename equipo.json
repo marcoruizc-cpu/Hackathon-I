@@ -1,0 +1,8 @@
+{
+  "equipo": "G00",
+  "integrantes": [
+    { "nombre": "Gabriel Saavedra", "codigo": "202510192" },
+    { "nombre": "Elí Reyes", "codigo": "202520084" },
+    { "nombre": "Marco Ruiz", "codigo": "202520102" }
+  ]
+}
