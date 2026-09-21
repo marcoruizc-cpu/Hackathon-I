@@ -1,11 +1,7 @@
-# Compilados de Maven (tu proyecto, la plantilla y los autotests)
-target/
-
-# Secretos: nunca se sube
 .env
-
-# IDE y sistema
+target/
+*.class
 .idea/
-.vscode/
 *.iml
-.DS_Store
+.vscode/
+HELP.md
