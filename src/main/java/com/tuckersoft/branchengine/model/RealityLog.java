@@ -31,7 +31,6 @@ public class RealityLog {
     @Column(nullable = false)
     private String logStatus;
 
-    @Lob
     @Column(columnDefinition = "TEXT")
     private String errorMessage;
 

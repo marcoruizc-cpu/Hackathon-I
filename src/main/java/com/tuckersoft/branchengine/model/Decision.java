@@ -26,7 +26,6 @@ public class Decision {
     @JoinColumn(name = "node_id", nullable = false)
     private StoryNode node;
 
-    @Lob
     @Column(nullable = false, columnDefinition = "TEXT")
     private String rawInput;
 

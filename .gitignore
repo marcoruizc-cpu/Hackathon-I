@@ -5,3 +5,4 @@ target/
 *.iml
 .vscode/
 HELP.md
+.DS_Store
